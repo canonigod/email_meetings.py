@@ -43,12 +43,12 @@ for day in meetings_of_week:
         break
 
 # Twilio account SID and authentication token
-account_sid = 'AC65bd617b703ac39e5f4e16d5fa2b365a'
-auth_token = '0aaeebe20d430efa76b8469e32b6bcaa'
+account_sid = 'YOUR_TWILIO_ACCOUNT_SID'
+auth_token = 'YOUR_TWILIO_ACCOUNT_TOKEN'
 
 # Twilio phone number and recipient's phone number
-twilio_number = '+14155238886'
-recipient_number = '+13059223990'  # Include the country code
+twilio_number = '+1YOUR_TWILIO_PHONE_NUMBER'
+recipient_number = '+1YOUR_RECEPIENT_PHONE_NUMBER'  # Include the country code
 
 # Create a Twilio client
 client = Client(account_sid, auth_token)
